@@ -9,6 +9,7 @@ only add here if you are working on a PR
 ### Added
 
 ### Fixed
+- Do not write custom reporter messages (e.g. from `rspec-retry`) into RSpec `RuntimeLogger` output file
 
 ## 5.8.0 - 2026-09-13
 

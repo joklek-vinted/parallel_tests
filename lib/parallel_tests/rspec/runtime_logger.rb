@@ -35,6 +35,8 @@ class ParallelTests::RSpec::RuntimeLogger < ParallelTests::RSpec::LoggerBase
 
   def dump_pending(*); end
 
+  def message(*); end
+
   def start_dump(*)
     return unless ENV['TEST_ENV_NUMBER'] # only record when running in parallel
     lock_output do
